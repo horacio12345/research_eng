@@ -249,3 +249,4 @@ __pycache__/
 Thumbs.db
 
 # End of https://www.toptal.com/developers/gitignore/api/visualstudiocode,macos,python
+outputs/
