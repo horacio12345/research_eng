@@ -1,0 +1,6 @@
+Based on this search result, write a concise 1-2 sentence summary focusing on the key insights or practical applications related to generative AI in engineering.
+
+Title: {title}
+Snippet: {snippet}
+
+Summary:

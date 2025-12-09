@@ -1,0 +1,22 @@
+You are an expert research analyst assessing the relevance of search results.
+
+Topic: {topic_name}
+Topic Keywords: {keywords}
+
+Search Result:
+Title: {title}
+URL: {url}
+Snippet: {snippet}
+
+Assess whether this result is truly relevant to the topic. It should:
+1. Specifically discuss generative AI applications (not just mention AI in passing)
+2. Focus on engineering, construction, or project management contexts
+3. Be from a credible source (academic, industry, reputable publication)
+4. Contain substantive content (not just ads or low-quality pages)
+
+Respond ONLY with a valid JSON object in this exact format:
+{{
+    "relevance_score": 0.0 to 1.0,
+    "is_relevant": true or false,
+    "reasoning": "brief explanation"
+}}

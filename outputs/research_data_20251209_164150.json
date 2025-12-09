@@ -1,0 +1,146 @@
+{
+  "generated_at": "2025-12-09T16:41:50.306481",
+  "topics": {
+    "Enterprise AI Implementation & ROI": [
+      {
+        "title": "Beyond the Hype: Unlocking Value from the AI Revolution",
+        "url": "https://www.mckinsey.com/cn/our-insights/our-insights/beyond-the-hype-unlocking-value-from-the-ai-revolution",
+        "snippet": "These three case studies illustrate how companies can successfully transition from pilots to scaled deployments, showcasing different approaches to overcoming common challenges. The first case highlights an enterprise-wide transformation that spanned multiple functions and enablers. The second demonstrates the creation of a flexible, modular tech stack to support AI at scale. The third underscores the critical role of change management in embedding AI into daily operations to unlock sustained [.",
+        "published_date": null,
+        "domain": "www.mckinsey.com",
+        "relevance_score": 0.6,
+        "ai_summary": null
+      },
+      {
+        "title": "How business leaders can realize ROI with AI Agents | IBM",
+        "url": "https://www.ibm.com/think/insights/realize-roi-ai-agents",
+        "snippet": "AI agents are no longer experimental—they’re operational. But for many executive leaders, the results have been underwhelming. According to the 2025 IBM Institute for Business Values C-suite Study, only 25% of AI initiatives have delivered the expected return on investment (ROI), and just 16% have scaled enterprise-wide. These numbers reveal a critical gap between ambition and execution. [...] # From hype to high-impact: How business leaders can realize ROI with AI agents\n\nArtificial Intelligenc",
+        "published_date": "2025",
+        "domain": "www.ibm.com",
+        "relevance_score": 0.6,
+        "ai_summary": null
+      },
+      {
+        "title": "Enterprise AI agents: Beyond productivity - IBM",
+        "url": "https://www.ibm.com/think/insights/enterprise-ai-agents",
+        "snippet": "AI agents, capable of orchestrating complex workflows to support human workers, help enterprises meet escalating business demands. They combine large language models (LLMs), machine learning, reasoning capabilities and external tool integration to handle complex and nuanced work. They parse context and adapt to changing circumstances, allowing them to help users streamline processes and improve decision-making across an organization. [...] Artificial Intelligence   Business operations\n\n# Enterpr",
+        "published_date": "2025",
+        "domain": "www.ibm.com",
+        "relevance_score": 0.6,
+        "ai_summary": null
+      },
+      {
+        "title": "What Is Enterprise AI? | IBM",
+        "url": "https://www.ibm.com/think/topics/enterprise-ai",
+        "snippet": "Report   From AI projects to profits: How agentic AI can sustain financial returns \n\nLearn how organizations are shifting from launching AI in disparate pilots to using it to drive transformation at the core.\n\n Read the report\n\nEbook   Start realizing ROI: A practical guide to agentic AI \n\nDiscover ways to get ahead, successfully scaling AI across your business with real results.\n\n Read the ebook\n\n2025 AI Agents buyer's guide   How AI agents and assistants can benefit your organization [...] Div",
+        "published_date": "2025",
+        "domain": "www.ibm.com",
+        "relevance_score": 0.6,
+        "ai_summary": null
+      },
+      {
+        "title": "Agentic AI enterprise adoption: Navigating key factors",
+        "url": "https://www.deloitte.com/us/en/what-we-do/capabilities/applied-artificial-intelligence/articles/agentic-ai-enterprise-adoption-guide.html",
+        "snippet": "##### Read the full report\n\n### The imperative for agentic AI enterprise adoption\n\nOrganizations across industries are at the dawn of a step change in how work is accomplished: agentic AI. The scale of opportunity and disruption necessitates a reimagination of the enterprise, and the race to agentification has begun.\n\n80%\n\nOf automation leaders are expected to accelerate AI agent investments over 20251\n\n1/3 [...] Of enterprise software applications were forecast to include agentic capabilities b",
+        "published_date": null,
+        "domain": "www.deloitte.com",
+        "relevance_score": 0.6,
+        "ai_summary": null
+      }
+    ],
+    "AI in Engineering & Project Management": [
+      {
+        "title": "AI-Powered Construction Document Analysis by ...",
+        "url": "https://aws.amazon.com/blogs/spatial/ai-powered-construction-document-analysis-by-leveraging-computer-vision-and-large-language-models/",
+        "snippet": "The architectural, engineering, and construction (AEC) industry is experiencing a digital transformation, driven by the increasing adoption of artificial intelligence and machine learning technologies. At the forefront of this evolution is TwinKnowledge, a pioneering AEC AI company that’s reimagining how the industry designs and reviews construction drawings at scale. [...] TwinKnowledge’s mission is to decrease errors in construction documents and improve overall project efficiency by leveragin",
+        "published_date": null,
+        "domain": "aws.amazon.com",
+        "relevance_score": 0.8,
+        "ai_summary": null
+      },
+      {
+        "title": "Robots, AI, and the road to a fully autonomous construction ...",
+        "url": "https://venturebeat.com/ai/robots-ai-and-the-road-to-a-fully-autonomous-construction-industry",
+        "snippet": "course of the whole construction plan, so being able to effectively manage those exceptions is going to be a challenge.\" [...] Major construction companies around the world are increasingly turning to technology to reduce construction project delays and accident costs. The 2019 KPMG global construction survey found that within the next five years, 60% of executives at major construction companies plan to use real-time models to predict risks and returns.\n\nIndus.ai is one of a handful of companie",
+        "published_date": null,
+        "domain": "venturebeat.com",
+        "relevance_score": 0.6,
+        "ai_summary": null
+      },
+      {
+        "title": "Transforming Infrastructure Project Delivery with Data ...",
+        "url": "https://www.deloitte.com/uk/en/Industries/real-estate/blogs/2024/transforming-infrastructure-project-delivery-with-data-analytics-and-ai.html",
+        "snippet": "Every infrastructure project is unique and there is not a universal approach to using data analytics and AI. To drive better project outcomes, the infrastructure industry must lean into this framework and share their expertise to deliver long-term value for public benefit. For more perspectives on generative AI in infrastructure and real estate, check out our blogs on bridging the gap,  transforming real estate,  overcoming implementation challenges and embracing a human centric approach and [..",
+        "published_date": null,
+        "domain": "www.deloitte.com",
+        "relevance_score": 0.6,
+        "ai_summary": null
+      },
+      {
+        "title": "The future of engineering belongs to those who build with AI ...",
+        "url": "https://venturebeat.com/ai/the-future-of-engineering-belongs-to-those-who-build-with-ai-not-without-it/",
+        "snippet": "May 31, 2025 · When Salesforce CEO Marc Benioff recently announced that the company would not hire any more engineers in 2025 , citing a “30% productivity increase on engineering” due to AI, it sent ripples",
+        "published_date": "2025",
+        "domain": "venturebeat.com",
+        "relevance_score": 0.6,
+        "ai_summary": null
+      },
+      {
+        "title": "Using Generative AI in Software Project Management to Bridge ...",
+        "url": "https://www.infoq.com/articles/generative-ai-software-project-management/",
+        "snippet": "+ ##### Akka Launches Agentic Platform for Autonomous, Real-Time & Edge AI Systems\n  + ##### Enterprise Agentic Architecture: Performance, Cost, and Safety in Production (Live Webinar Oct 9, 2025) - Save Your Seat\n  + ##### Designing Data Intensive Applications (By O'Reilly)\n  + ##### InfoQ Dev Summit Munich (Oct 15-16, 2025): Tackle today’s biggest software challenges in AI, platform engineering, and resilience. Join now. [...] The descriptions of work the LLM extracts what the  engineering gro",
+        "published_date": "2025",
+        "domain": "www.infoq.com",
+        "relevance_score": 0.6,
+        "ai_summary": null
+      }
+    ],
+    "AI Market Trends & Implementation Challenges": [
+      {
+        "title": "From pilot to profit: The real path to scalable, ROI-positive AI",
+        "url": "https://venturebeat.com/ai/from-pilot-to-profit-the-real-path-to-scalable-roi-positive-ai",
+        "snippet": "The statistics are sobering. Industry research shows that 85% of AI projects never make it to production, and of those that do, fewer than half generate meaningful business value. The problem isn't technical—it's organizational. Companies treat AI as a science experiment rather than a business capability. [...] The failure patterns are predictable: scattered initiatives across business units, unclear success metrics, insufficient data infrastructure and—most critically—the absence of governance ",
+        "published_date": null,
+        "domain": "venturebeat.com",
+        "relevance_score": 0.7,
+        "ai_summary": null
+      },
+      {
+        "title": "95% of business applications of AI have failed. Here's why",
+        "url": "https://www.zdnet.com/article/95-of-business-applications-of-ai-have-failed-heres-why/",
+        "snippet": "Also: Gen AI disillusionment looms, according to Gartner's 2025 Hype Cycle report\n\nThe study, conducted by MIT's Networked Agents and Decentralized AI (NANDA) project, was based on interviews with over 150 business leaders and an analysis of 300 business deployments of generative AI.\n\n\"Just 5% of integrated AI pilots are extracting millions in value, while the vast majority remain stuck with no measurable P&L impact,\" the authors write in the report. [...] AI will cause 'jobs chaos' within the n",
+        "published_date": "2025",
+        "domain": "www.zdnet.com",
+        "relevance_score": 0.7,
+        "ai_summary": null
+      },
+      {
+        "title": "Why AI projects fail: The science experiment trap and how to ...",
+        "url": "https://www.ibm.com/think/insights/why-ai-projects-fail-science-experiment-trap",
+        "snippet": "This approach might be why, according to the IBM Institute for Business Value’s (IBV) 2025 CEO Study, just 16% of AI initiatives have achieved scale at the enterprise level. A recent report from MIT’s NANDA initiative shared even grimmer findings—that 95% of generative AI pilots fail. [...] Dive into this comprehensive guide that breaks down key use cases, core capabilities, and step-by-step recommendations to help you choose the right solutions for your business.\n\n Read the guide\n\nReport   Top ",
+        "published_date": "2025",
+        "domain": "www.ibm.com",
+        "relevance_score": 0.7,
+        "ai_summary": null
+      },
+      {
+        "title": "AI Maturity Matters: Generative AI Implementation Challenges",
+        "url": "https://www.gartner.com/en/documents/6587602",
+        "snippet": "Gartner client? Log\n  in for personalized search results.\n\n##### Gartner Research\n\n# AI Maturity Matters: Generative AI Implementation Challenges\n\nPublished: 12 June 2025\n\n### Summary [...] With exclusive insight from Gartner experts on the latest trends, sessions curated for your role and unmatched peer networking, Gartner conferences help you accelerate your priorities.\n\nView Conference Calendar\n\n22 – 24 Sep 2025\n\nGartner CIO & IT Executive Conference\n\nSão Paulo, Brazil\n\nLearn More [...] #####",
+        "published_date": "2025",
+        "domain": "www.gartner.com",
+        "relevance_score": 0.7,
+        "ai_summary": null
+      },
+      {
+        "title": "Employees attribute AI project failure to poor data quality",
+        "url": "https://venturebeat.com/ai/employees-attribute-ai-project-failure-to-poor-data-quality",
+        "snippet": "The findings agree with other surveys showing that, despite enthusiasm around AI, enterprises struggle to deploy AI-powered products. Business use of AI grew a whopping 270% over the past four years, according to Gartner, while Deloitte says 62% of respondents to its corporate October 2018 report adopted some form of AI, up from 53% in 2019. But adoption doesn't always meet with success, as the roughly 25% of companies that have seen half their AI projects fail will tell you. [...] All Posts\n\n# ",
+        "published_date": null,
+        "domain": "venturebeat.com",
+        "relevance_score": 0.6,
+        "ai_summary": null
+      }
+    ]
+  }
+}

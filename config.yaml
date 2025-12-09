@@ -1,0 +1,241 @@
+# Research Automation Tool - Configuration v2.0
+# Optimized for LinkedIn content generation in Enterprise AI space
+
+# ═══════════════════════════════════════════════════════════════════════════
+# CORE CONFIGURATION
+# ═══════════════════════════════════════════════════════════════════════════
+
+metadata:
+  version: "2.0"
+  purpose: "Enterprise AI content discovery for LinkedIn publishing"
+  target_audience: "CTOs, CIOs, Project Managers, Engineering Leaders"
+  content_style: "business_impact"
+
+# ═══════════════════════════════════════════════════════════════════════════
+# TOPIC CLUSTERS (organized by content angle, not just subject)
+# ═══════════════════════════════════════════════════════════════════════════
+
+topic_clusters:
+
+  # ─────────────────────────────────────────────────────────────────────────
+  # CLUSTER 1: Enterprise AI Implementation (ROI + Real Cases)
+  # ─────────────────────────────────────────────────────────────────────────
+  - cluster_name: "Enterprise AI Implementation & ROI"
+    priority: 1
+    content_angle: "business_results"
+    keywords:
+      - "AI agents enterprise"
+      - "AI implementation ROI"
+      - "AI productivity gains"
+      - "AI cost savings"
+    search_queries:
+      - 'AI agents enterprise ROI 2025'
+      - 'AI implementation case study results'
+      - 'agentic AI business value statistics'
+      - 'enterprise AI adoption cost savings'
+      - 'AI automation productivity gains report'
+
+  # ─────────────────────────────────────────────────────────────────────────
+  # CLUSTER 2: AI in Engineering & Project Management
+  # ─────────────────────────────────────────────────────────────────────────
+  - cluster_name: "AI in Engineering & Project Management"
+    priority: 1
+    content_angle: "practical_application"
+    keywords:
+      - "AI project management"
+      - "AI engineering automation"
+      - "AI construction management"
+    search_queries:
+      - 'AI project management software enterprise'
+      - 'agentic AI workflow automation 2025'
+      - 'AI engineering project coordination'
+      - 'AI construction management case study'
+      - 'AI agents task automation business'
+
+  # ─────────────────────────────────────────────────────────────────────────
+  # CLUSTER 3: Market Trends & Challenges
+  # ─────────────────────────────────────────────────────────────────────────
+  - cluster_name: "AI Market Trends & Implementation Challenges"
+    priority: 2
+    content_angle: "market_intelligence"
+    keywords:
+      - "AI market forecast"
+      - "AI implementation challenges"
+      - "AI project failure"
+    search_queries:
+      - 'AI hype cycle 2025 enterprise'
+      - 'AI project failure rate statistics'
+      - 'enterprise AI trends forecast 2025'
+      - 'agentic AI challenges implementation'
+      - 'AI adoption barriers enterprise'
+
+# ═══════════════════════════════════════════════════════════════════════════
+# DOMAIN CONFIGURATION (Quality control, not restriction)
+# ═══════════════════════════════════════════════════════════════════════════
+
+domains:
+  # Exclude (low quality, noise) - PRE-SEARCH FILTER
+  exclude:
+    - "youtube.com"
+    - "facebook.com"
+    - "twitter.com"
+    - "x.com"
+    - "reddit.com"
+    - "quora.com"
+    - "medium.com"
+    - "linkedin.com"
+    - "wikipedia.org"
+    - "slideshare.net"
+    - "prweb.com"
+    - "globenewswire.com"
+    - "prnewswire.com"
+    - "pinterest.com"
+
+  # Authority boost (+0.2 to ranking score) - POST-SEARCH
+  authority_boost:
+    - "mckinsey.com"
+    - "gartner.com"
+    - "hbr.org"
+    - "sloanreview.mit.edu"
+    - "deloitte.com"
+    - "pwc.com"
+    - "forrester.com"
+    - "ibm.com"
+    - "microsoft.com"
+    - "aws.amazon.com"
+    - "blog.google"
+    - "techcrunch.com"
+    - "venturebeat.com"
+    - "infoq.com"
+    - "arxiv.org"
+    - "ieee.org"
+
+# ═══════════════════════════════════════════════════════════════════════════
+# SEARCH PROVIDER CONFIGURATION
+# ═══════════════════════════════════════════════════════════════════════════
+
+search_provider: "tavily"
+
+tavily:
+  search_depth: "advanced"
+  max_results: 3
+  include_answer: true
+  include_raw_content: false
+
+brave:
+  freshness: "pw"
+  count: 10
+
+# ═══════════════════════════════════════════════════════════════════════════
+# AI PROCESSING CONFIGURATION
+# ═══════════════════════════════════════════════════════════════════════════
+
+ai:
+  primary_model: "gpt-4o-mini"
+  temperature: 0.2
+  use_ai_filtering: true
+  
+  analysis_prompts:
+    relevance_check: |
+      Evaluate this article for enterprise AI content:
+      1. Contains specific statistics or data? (Y/N)
+      2. Mentions business impact (ROI, time savings, cost)? (Y/N)
+      3. From authoritative source? (Y/N)
+      4. Published in last 90 days? (Y/N)
+      5. Would appeal to C-level/engineering leaders? (Y/N)
+      Score: X/5
+
+    extract_hooks: |
+      Extract potential LinkedIn hooks from this content:
+      - Key statistic or surprising fact
+      - Contrarian viewpoint or controversy
+      - Actionable insight
+      - Future prediction
+      
+    categorize_angle: |
+      Categorize this article's angle:
+      - Success story / Case study
+      - Market analysis / Statistics
+      - How-to / Implementation guide
+      - Opinion / Prediction
+      - Warning / Failure analysis
+
+# ═══════════════════════════════════════════════════════════════════════════
+# FILTERING & RANKING
+# ═══════════════════════════════════════════════════════════════════════════
+
+filtering:
+  date_range:
+    min_date: "2024-06-01"
+    prefer_recent: true
+    recency_weight: 0.3
+    
+  content_requirements:
+    min_word_count: 500
+    must_contain_one_of:
+      - "AI"
+      - "automation"
+      - "enterprise"
+      - "business"
+      - "agents"
+      - "implementation"
+    exclude_if_contains:
+      - "sponsored"
+      - "advertisement"
+      - "affiliate"
+      
+  ranking_criteria:
+    source_authority: 0.35
+    content_freshness: 0.25
+    statistic_density: 0.20
+    relevance_score: 0.20
+    
+  output_limits:
+    top_n_per_cluster: 4
+    total_max_results: 12
+    min_unique_sources: 8
+
+# ═══════════════════════════════════════════════════════════════════════════
+# OUTPUT CONFIGURATION
+# ═══════════════════════════════════════════════════════════════════════════
+
+output:
+  directory: "outputs"
+  
+  formats:
+    markdown:
+      filename_pattern: "research_{date}_{cluster}"
+      include_source_links: true
+      include_key_quotes: true
+      
+    json:
+      filename_pattern: "data_{date}"
+      include_raw_content: false
+      include_metadata: true
+      
+    csv:
+      filename_pattern: "sources_{date}"
+      columns:
+        - "title"
+        - "url"
+        - "source_domain"
+        - "publish_date"
+        - "relevance_score"
+        - "key_statistic"
+        - "hook_potential"
+
+  linkedin_prep:
+    extract_hooks: true
+    extract_statistics: true
+    suggest_angles: true
+    generate_summaries: true
+
+# ═══════════════════════════════════════════════════════════════════════════
+# SCHEDULING (for automation)
+# ═══════════════════════════════════════════════════════════════════════════
+
+schedule:
+  frequency: "weekly"
+  day: "monday"
+  notify_on_complete: true
+  archive_previous: true
